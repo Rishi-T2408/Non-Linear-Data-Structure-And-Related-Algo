@@ -81,7 +81,7 @@ int main()
     }
     cout<<"After sorting the array in heap sort "<<endl;
     HeapSort(A,length);  
-    for(int i=1;i<length;i++)
+    for(int i=1;i<(length+1);i++)
     {
         cout<<A[i]<<" "; 
     }
